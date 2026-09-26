@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:set_name",
+  "target": "item_name",
+  "entity": "this",
+  "name": {
+    "text": "ᴅʀᴏᴘᴘᴇʀ",
+    "color": "#95C0EE",
+    "italic": false,
+    "extra": [
+      {
+        "text": " (",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "nbt": "maps.dropper.count",
+        "storage": "parkour:data",
+        "interpret": true,
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " maps)",
+        "color": "gray",
+        "italic": false
+      }
+    ]
+  }
+}

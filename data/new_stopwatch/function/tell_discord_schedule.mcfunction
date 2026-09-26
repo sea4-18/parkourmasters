@@ -1,0 +1,1 @@
+function new_stopwatch:tell_discord_finish_time with storage discord_finish

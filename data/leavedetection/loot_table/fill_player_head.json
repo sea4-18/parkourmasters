@@ -1,0 +1,52 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "modifier": [
+              {
+                "type": "minecraft:fill_player_head",
+                "entity": "this"
+              },
+              {
+                "type": "set_name",
+                "name": {
+                  "selector": "@s",
+                  "color": "white",
+                  "italic": false
+                },
+                "entity": "this"
+              },
+              {
+                "type": "set_lore",
+                "lore": [
+                  {
+                    "text": "Last Played Map: ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "players_online[{name:\"$(lastKnownName)\"}].map_id",
+                    "storage": "parkour:data",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "type": "set_custom_data",
+                "tag": {
+                  "ui":90099
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

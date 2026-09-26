@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "parkour:data"
+    },
+    "ops": [
+      {
+        "source": "category",
+        "target": "category",
+        "op": "replace"
+      }
+    ]
+}

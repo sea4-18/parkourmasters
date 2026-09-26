@@ -1,0 +1,1 @@
+tellraw @a [{color:"gray","selector": "@s"}," completed ",{color:"#757575","nbt":"map_name","storage":"parkour:data",interpret:1b},{color:"gray",text:" in "},{color:"#78b678",text:"practice mode"},{color:"gray",text:"!"}]

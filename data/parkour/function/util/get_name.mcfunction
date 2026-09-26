@@ -1,0 +1,2 @@
+execute in overworld run loot replace block 87 68 -6 container.0 loot parkour:player_head
+execute in overworld run data modify storage util playername set from block 87 68 -6 Items[0].components.minecraft:profile.name
